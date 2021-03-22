@@ -1,0 +1,1 @@
+Have you ever wanted to learn to create a web site? Not sure where to start? Start by learning the basics of HTML. HTML is the publishing language of the web. Utilizing HTML tags you can create a web page that can be displayed in any browser across the web. In this course, you will learn the most used tags in HTML5, and then create a website with those tags.

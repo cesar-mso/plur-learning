@@ -1,0 +1,16 @@
+* {
+    font-family: Tahoma;
+}
+
+#Information {
+    background: #EEE;
+    padding: 10px 20px;
+}
+
+#Information p {
+    font-size: 12px;
+}
+
+.footnote {
+    font-size: 10px;
+}
