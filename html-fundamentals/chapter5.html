@@ -5,14 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Wired Brain Coffee</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
 </head>
 <body>
     
     <header>
-        <a href="https://pluralsight.com" target="_blank" rel="norefferer noopener">
-            <h1>Wired Brain Coffee</h1>
-            <h2>Coffee to keep your brain wired</h2>
-        </a>
+        <picture style="float:left">
+            <source type="image/jpeg" srcset="imgs/wired-brain-coffee-logo-250.jpg 250w, imgs/wired-brain-coffee-logo.jpg 500w"
+            sizes="(max-width: 500px) 15vw, 25vw">
+            
+            <source type="image/png" srcset="imgs/wired-brain-coffee-logo-250.png 250w, imgs/wired-brain-coffee-logo.png 500w"
+            sizes="(max-width: 500px) 15vw, 25vw">
+
+            <!--
+            srcset="imgs/wired-brain-coffee-logo.png 500w, imgs/wired-brain-coffee-logo-250.png 250w"
+            sizes="(max-width: 500px) 25vw, 50vw"
+            style="float:left" />
+            -->
+
+            <img src="imgs/wired-brain-coffee-logo.png" alt="Wired Brain Coffee Logo">
+        </picture>
+        
+
+        <div style="float:left; margin-left: 15px;">
+            <a href="https://pluralsight.com" target="_blank" rel="norefferer noopener">
+                <h1>Wired Brain Coffee</h1>
+                <h2>Coffee to keep your brain wired</h2>
+            </a>
+        </div>
+
+        <div style="clear:both">
+
         <nav>
             <ul>
                 <li><a href="content/recipes.html">Recipes</a></li>
