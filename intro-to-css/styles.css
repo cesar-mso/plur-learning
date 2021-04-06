@@ -1,0 +1,26 @@
+/*styles for simple selectors: tags*/
+body {
+    background-color: #98bac9;
+}
+
+h1, h2 {
+    background-color: #cccc99;
+}
+
+div {
+    background-color: #ff0000;
+}
+
+p {
+    font-size: larger;
+}
+
+/*style for id's*/
+#content {
+    background-color: #00ff00;
+}
+
+/*styles for classes*/
+.quotation {
+    background-color: #0000ff;
+}
