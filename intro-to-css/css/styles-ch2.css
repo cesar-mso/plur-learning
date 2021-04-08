@@ -1,5 +1,5 @@
-/*Importing already made styles
-@import url("styles.css");*/
+/*Importing already made styles*/
+@import url("styles.css");
 
 /*styles based on tags, overrides what might imported*/
 div {

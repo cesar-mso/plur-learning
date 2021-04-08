@@ -6,7 +6,7 @@
 /*styles for simple selectors: tags*/
 body {
     background-color: #98bac9;
-    background-image: url("imgs/bg.jpg");
+    background-image: url("../imgs/bg.jpg");
 }
 
 h1, h2 {
