@@ -4,7 +4,29 @@ body
     font-family: sans-serif;
 }
 
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+ol {
+    font-size: .9em;
+    font-style: italic;
+}
+
 .content
 {
     background: #eeeecc;
+    padding: 7px;
+}
+
+.code {
+    font-family: monospace;
+    font-size: 0.9em;
+}
+
+.copyright {
+    font-weight: bold;
+    font-size: .9em;
 }
