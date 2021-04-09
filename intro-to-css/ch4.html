@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FileVersonInfo</title>
+    <link rel="stylesheet" href="css/styles-ch4.css" type="text/css" />
+</head>
+<body>
+    <h1>Using FileVersionInfo</h1>
+    <div class="content">
+        <p>
+            Getting the version number of any managed / unmanaged DLL or executable in .NET
+            1.0, if I recall correctly, required some magic incantations with PInvoke.
+        </p>
+        <p>
+            I just discovered the FileVersionInfo class from System.Diagnostics:
+        </p>
+        <pre>
+        FileVersionInfo versionInfo;
+        versionInfo = FileVersionInfo.GetVersionInfo(@"e:\win2003\system32\svchost.exe");
+        MessageBox.Show(versionInfo.ToString());
+        </pre>
+        <p>
+            To use the class then, all you need to do is:
+            <ol>
+                <li>Invoke the static GetVersionInfo method</li>
+                <li>Start using the properties of the resulting object</li>
+            </ol>
+        </p>
+        <p>
+            File version is a 64 bit number. 
+            <ul>
+                <li>The first 16 bits are the major number</li>
+                <li>The next 16 bits are the minor number</li>
+                <li>The third set of 16 bits are the build number</li>
+                <li>The last 16 bits are the private build number</li>
+            </ul>
+        </p>
+    </div>
+    <div class="copyright">
+    (c) 2005 Copyright notice
+    </div>
+</body>
+</html>
