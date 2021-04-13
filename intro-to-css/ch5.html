@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Put Your HTML in a Box</title>
+    <link rel="stylesheet" href="css/styles-ch5.css" type="text/css" />
+</head>
+<body>
+    <div id="header">
+        <h1>Put Your HTML in a Box</h1>
+        <p>Scott Allen | July 1, 2010</p>
+    </div>
+    <div id="links">
+        <a href="">Link</a><br>
+        <a href="">Link</a><br>
+        <a href="">Link</a><br>
+        <a href="">Link</a><br>
+    </div>
+    <div id="content">
+        <div id="buttons">
+            <input name="b1" value="button 1" type="button" />
+            <input name="b2" value="button 2" type="button" />
+            <input name="b3" value="button 3" type="button" />
+        </div>
+        <p>
+            The first step in understanding how to position elements is to understand the fundamental
+            model of CSS—the box model.
+        </p>
+        <h2>
+            The Box Model</h2>
+        <p>
+            Every element you place on a page creates a box. You cannot always see the boundaries
+            and the borders of the boxes you create, but the boxes are there. A <em>div</em>
+            element creates a box, as do <em>h1</em>,<em>img</em>, <em>span</em>, and <em>td</em>
+            elements. Each box has properties you can set with CSS. I’ve illustrated some of
+            these properties in Figure 1.</p>
+        <p>
+            <img id="figure1" alt="" src="https://codinglead.github.io/images/box-model.png"
+                title=""><br>
+            <strong>Figure 1 Border, padding, and margin</strong>
+            <div class="clear">
+            </div>
+        </p>
+        <p>
+            The <em>padding</em> of a box is the distance between the content of the box and
+            the box’s border, and the <em>margin</em> is the distance between a box and any
+            adjacent element. In other words, padding adds space inside the border, while a
+            margin adds space outside the border. In the following CSS, I set both the padding
+            and the margin to a distance of 10 pixels. This is why you can see so much white
+            space in Figure 1.
+        </p>
+        <div class="clear"></div>
+        <p>
+            The border surrounding every element is not visible by default, but by using CSS
+            I can change the color of an element’s border, as well as the thickness and line
+            style the browser uses when drawing the border. What you see in Figure 1 is the
+            result of a style rule telling the browser to draw a solid, thin, red line around
+            the box that each div element creates.
+        </p>
+    </div>
+    <div id="authorinfo">
+        <h3>
+            <img alt="About the Author" height="37" src="http://www.zerocosteconomy.com/images/about_title-rev01.png"
+                title="About the Author" width="300">
+        </h3>
+        <div>
+            <div>
+                <img alt="" height="77" src="https://res.cloudinary.com/practicaldev/image/fetch/s--j0tu87Ve--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://thepracticaldev.s3.amazonaws.com/i/g9heha0w68fwtihht04i.jpg">
+            </div>
+            <div>
+                <p>
+                    Scott Allen is the Principal Consultant and a founder of OdeToCode LLC.
+                </p>
+                <h4>
+                    Find Scott on:</h4>
+                <ul>
+                    <li>Twitter - <a href="http://twitter.com/OdeToCode/">@OdeToCode</a></li>
+                    <li><a href="http://odetocode.com/blogs/scott/">Scott's Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
