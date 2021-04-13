@@ -3,18 +3,32 @@ body {
     margin: 0;
 }
 
-#authorinfo {
-    position: absolute;
+#header {
+    height: 100px;
+    text-align: center;
+}
+
+#links {
+    /* position: absolute;
     top: 120px;
-    left: 5px;
+    left: 0px;
+    width: 100px; */
+    float: left;
+    width: 105px;
+}
+
+#authorinfo {
+    /* position: absolute;
+    top: 120px;
+    right: 0px;
+    width: 300px; */
+    float: left;
     width: 300px;
 }
 
 #content {
-    margin-left: 310px;
-}
-
-#header {
-    height: 100px;
-    text-align: center;
+    /* margin-left: 105px;
+    margin-right: 305px; */
+    float: left;
+    width: 600px;
 }
