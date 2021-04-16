@@ -1,15 +1,15 @@
 // waiting for code...
 
-showMessage("Changes appear!!");
-
-showMessage("What now?");
-
-console.log('TEEEEST');
-
 //declaring multiple variables
 let price = 49.99,
-    itemName = 'Some merch',
+    itemName = 'merch';
+    sentance = `\"Some\" ${itemName}`,
     discount = '15%';
 
 //use them all in function
-showMessage(itemName, discount, price);
+showMessage(sentance, discount, price);
+
+//testing typeof
+console.log('price is a ' + typeof price);
+console.log('sentance is a ' + typeof sentance);
+console.log('discount is a ' + typeof discount);
