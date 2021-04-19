@@ -23,8 +23,13 @@ console.log('discount is a ' + typeof discount);*/
 (price < 50) ? showMessage(sentance, discount, price) : console.log(sentance, discount, price);
 
 //testing for loops
-for (let i=0; i <= 5; i++) {
+/*for (let i=0; i <= 5; i++) {
     console.log(i);
-}
+}*/
 
 //testin while loops
+let i = 4;
+while (i >= 0) {
+    console.log(i);
+    i--;
+}
