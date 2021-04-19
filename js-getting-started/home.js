@@ -28,8 +28,15 @@ console.log('discount is a ' + typeof discount);*/
 }*/
 
 //testin while loops
-let i = 4;
+/*let i = 4;
 while (i >= 0) {
     console.log(i);
     i--;
-}
+}*/
+
+//testing do while loop, garantees block will run at least once
+let i = 4;
+do {
+    console.log(i);
+    i--;
+} while (i >= 0);
