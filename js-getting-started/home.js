@@ -7,9 +7,24 @@ let price = 49.99,
     discount = '15%';
 
 //use them all in function
-showMessage(sentance, discount, price);
+//showMessage(sentance, discount, price);
 
 //testing typeof
-console.log('price is a ' + typeof price);
+/*console.log('price is a ' + typeof price);
 console.log('sentance is a ' + typeof sentance);
-console.log('discount is a ' + typeof discount);
+console.log('discount is a ' + typeof discount);*/
+
+//testing conditional statements
+/*if (price <= 50) {
+    showMessage(sentance, discount, price);
+}*/
+
+//shorthand if else statement, or "ternary operator" >_<
+(price < 50) ? showMessage(sentance, discount, price) : console.log(sentance, discount, price);
+
+//testing for loops
+for (let i=0; i <= 5; i++) {
+    console.log(i);
+}
+
+//testin while loops
