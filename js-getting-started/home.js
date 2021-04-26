@@ -40,3 +40,30 @@ do {
     console.log(i);
     i--;
 } while (i >= 0);
+
+//creating a symbol
+let mySymbol = Symbol();
+
+//Creating an object
+let person = {
+    name: 'Cesar',
+    age: 41,
+    partTime: false,
+    [mySymbol]: 'somethingSecret', //not fully sure what this does..
+    
+    //creating a method
+    showInfo: function(realAge) {
+        console.log(this.name + ' is ' + realAge); //use this to grab info with proper scope
+    }
+};
+
+//changing object values
+person.age = 42;
+person['name'] = 'Cesar Ojeda';
+
+//printing out object values
+//console.log(person.name);
+//console.log(person.age);
+//console.log(person.partTime);
+console.log(person[mySymbol]); //to print out value
+person.showInfo(21);
