@@ -73,3 +73,7 @@ let now = new Date();
 console.log( now.toDateString() );
 console.log( Math.random() * 100 );
 console.log( person.name.charAt(7) );
+
+//testing changing styles via DOM
+const header = document.getElementById('messages');
+header.style.color = 'blue';
