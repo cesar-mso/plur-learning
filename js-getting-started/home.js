@@ -67,3 +67,9 @@ person['name'] = 'Cesar Ojeda';
 //console.log(person.partTime);
 console.log(person[mySymbol]); //to print out value
 person.showInfo(21);
+
+//testing built in objects and their methods with console logs
+let now = new Date();
+console.log( now.toDateString() );
+console.log( Math.random() * 100 );
+console.log( person.name.charAt(7) );
