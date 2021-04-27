@@ -83,5 +83,20 @@ const button = document.getElementById('see-review');
 
 //attaching event lisnter to button, does something onclick
 button.addEventListener('click', function() {
-    console.log('OUCH!!');
+    //console.log('OUCH!!');
+    const review = document.getElementById('review');
+    
+    //this is too simple >_< do it the hard way
+    //review.classList.toggle('d-none');
+
+    //step by step, oohh baby...
+    if (review.classList.contains('d-none')) {
+        review.classList.remove('d-none');
+        button.textContent = 'CLOSE REVIEW';
+    }
+    else {
+        review.classList.add('d-none');
+        button.textContent = 'SEE REVIEW';
+    }
+
 });
