@@ -81,7 +81,7 @@ header.style.color = 'blue';
 //testing button interaction
 const button = document.getElementById('see-review');
 
-//attaching event lisnter to button, does something onclick
+//attaching event listner to button, does something onclick
 button.addEventListener('click', function() {
     //console.log('OUCH!!');
     const review = document.getElementById('review');
@@ -98,5 +98,28 @@ button.addEventListener('click', function() {
         review.classList.add('d-none');
         button.textContent = 'SEE REVIEW';
     }
-
 });
+
+/*
+Chapter 9 content 
+*/
+
+//creating and initialise an array, verify it's an array and display content
+const values = ['a', 'b', 'c'];
+console.log(Array.isArray(values));
+//console.log(values);
+
+//change content as well
+values[2] = "ccc"
+//console.log( values[2] );
+
+//add and delete content in array
+values.push('cesar', 'is', 'someone');
+//console.log( values[3] );
+console.log(values);
+
+const cesar = values.slice(3, 6);   // creating new array
+values.splice(3, 3, 'dddd');        // deleting values and adding 'dddd'
+
+console.log(values);
+console.log(cesar);
