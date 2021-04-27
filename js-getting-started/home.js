@@ -123,3 +123,9 @@ values.splice(3, 3, 'dddd');        // deleting values and adding 'dddd'
 
 console.log(values);
 console.log(cesar);
+console.log( values.indexOf('a') ); // finding the index of an array item
+
+// using it in practice
+const containers = document.getElementsByClassName('container');
+containers[2].classList.add('d-none');
+console.log(containers);
