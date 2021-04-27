@@ -77,3 +77,11 @@ console.log( person.name.charAt(7) );
 //testing changing styles via DOM
 const header = document.getElementById('messages');
 header.style.color = 'blue';
+
+//testing button interaction
+const button = document.getElementById('see-review');
+
+//attaching event lisnter to button, does something onclick
+button.addEventListener('click', function() {
+    console.log('OUCH!!');
+});
