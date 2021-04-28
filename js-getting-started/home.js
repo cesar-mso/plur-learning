@@ -129,3 +129,20 @@ console.log( values.indexOf('a') ); // finding the index of an array item
 const containers = document.getElementsByClassName('container');
 containers[2].classList.add('d-none');
 console.log(containers);
+
+/*
+Chapter 10 content - scope an hoisting 
+*/
+
+//creating a global object rather than global variables for better management
+const app = {
+    productId: 12345,
+    userName: 'Cesar',
+    orderNumber: 6789
+}
+
+function showProductId() {
+    console.log(app.productId);
+}
+
+showProductId();
