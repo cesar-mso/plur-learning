@@ -1,8 +1,9 @@
-// waiting for code...
+//strict mode, must declare variables!
+'use strict';
 
 //declaring multiple variables
 let price = 49.99,
-    itemName = 'merch';
+    itemName = 'merch',
     sentance = `\"Some\" ${itemName}`,
     discount = '15%';
 
